@@ -1,0 +1,71 @@
+.container-temas {
+  width: 100%;
+  height: auto;
+  padding-top: 70px;
+  color: #fff;
+  .title-temas {
+    font-size: 30px;
+    padding: 14px;
+    text-align: center;
+  }
+
+  .all-topics {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    padding: 10px;
+  }
+}
+
+.card-route-tema {
+  width: 300px;
+  height: 400px;
+  background-color: #16181d;
+    border-radius: 10px;
+  .img-tema {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .details-tema {
+    padding: 5px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    .text-tema {
+      color: #929292;
+
+    }
+    .link-tema {
+      font-size: 18px;
+      text-decoration: none;
+      color: #43bff9;
+      height: 20px;
+      text-align: center;
+      &:hover {
+        color: #7dd3fc;
+      }
+    }
+  }
+}
+
+.section-routes-topics {
+  width: 100%;
+  padding: 80px 10px 10px 10px;
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 795px) {
+  .section-routes-topics {
+    padding-top: 16px;
+  }
+}

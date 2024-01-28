@@ -19,21 +19,13 @@
 #### Para ejecutar la aplicación, sigue estos pasos:
 
 1. Abre una terminal en el directorio del proyecto.
+2. Instala las dependencias utilizando npm:
 
-2. Instala las dependencias utilizando npm o yarn:
-
-`npm install` ó `yarn install`
-
-3. Instalar dependencias adicionales (react-router-dom y sass)
-
-`npm install react-router-dom` ó `yarn add react-router-dom`
-
-`npm install sass --save-dev` ó `yarn add sass --save-dev`
-
+`npm install`
 
 ### Inicia la aplicación:
 
-1. ejecuta: `npm start`
+1. ejecuta: `npm run dev`
 
 ##### La aplicación debería abrirse en tu navegador predeterminado en http://localhost:3000/.
 
